@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 2SK3557-7-TB-E
+#/224378/291737/2.47/3/3/Transistor
+DEF 2SK3557-7-TB-E Q 0 30 Y Y 1 F N
+F0 "Q" 1050 300 50 H V L CNN
+F1 "2SK3557-7-TB-E" 1050 200 50 H V L CNN
+F2 "SOT95P250X135-3N" 1050 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/2SK3557-D.PDF" 1050 0 50 H I L CNN
+F4 "2SK3557-7 N-Channel JFET For AM Tuner, 15V, Idss 16  32mA, 1dB Noise" 1050 -100 50 H I L CNN "Description"
+F5 "1.35" 1050 -200 50 H I L CNN "Height"
+F6 "ON Semiconductor" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "2SK3557-7-TB-E" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "2SK3557-7-TB-E" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/2sk3557-7-tb-e/on-semiconductor" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "863-2SK3557-7-TB-E" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/2SK3557-7-TB-E?qs=Z9twEOuL%252B%2FIZXlMw0LiuvA%3D%3D" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X SOURCE 1 0 0 200 R 50 50 0 0 P
+X DRAIN 2 0 -100 200 R 50 50 0 0 P
+X GATE 3 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

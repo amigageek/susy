@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MCP6541T-I_OT
+#/159453/291737/2.47/5/3/Integrated Circuit
+DEF MCP6541T-I_OT IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MCP6541T-I_OT" 950 200 50 H V L CNN
+F2 "SOT95P270X145-5N" 950 100 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21696H.pdf" 950 0 50 H I L CNN
+F4 "Comparator Push-Pull RRIO 1.6V SOT23-5" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "Microchip" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MCP6541T-I/OT" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MCP6541T-I/OT" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/mcp6541t-iot/microchip-technology" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "579-MCP6541T-I/OT" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6541T-I-OT?qs=qEm8%2FJMJY4rOhBk%252BH6iNPw%3D%3D" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 O
+X VSS 2 0 -100 200 R 50 50 0 0 W
+X VIN+ 3 0 -200 200 R 50 50 0 0 I
+X VIN- 4 1100 0 200 L 50 50 0 0 I
+X VDD 5 1100 -100 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DAC5574IDGS
+#/414126/291737/2.47/10/3/Integrated Circuit
+DEF DAC5574IDGS IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "DAC5574IDGS" 950 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/dac5574" 950 0 50 H I L CNN
+F4 "Texas Instruments DAC5574IDGS, 4-channel 8 bit Serial DAC, 188ksps, 10-Pin MSOP" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DAC5574IDGS" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-DAC5574IDGS" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-DAC5574IDGS" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "DAC5574IDGS" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/dac5574idgs/texas-instruments" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VOUTA 1 0 0 200 R 50 50 0 0 P
+X VOUTB 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X VOUTC 4 0 -300 200 R 50 50 0 0 P
+X VOUTD 5 0 -400 200 R 50 50 0 0 P
+X A1 10 1100 0 200 L 50 50 0 0 P
+X A0 9 1100 -100 200 L 50 50 0 0 P
+X VDD 8 1100 -200 200 L 50 50 0 0 P
+X SDA 7 1100 -300 200 L 50 50 0 0 P
+X SCL 6 1100 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

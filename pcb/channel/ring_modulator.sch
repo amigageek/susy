@@ -1,0 +1,402 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3350 4150 0    50   Input ~ 0
+SIGNAL2
+$Comp
+L power:GND #PWR057
+U 1 1 5F5CEF95
+P 6350 4350
+F 0 "#PWR057" H 6350 4100 50  0001 C CNN
+F 1 "GND" V 6355 4222 50  0000 R CNN
+F 2 "" H 6350 4350 50  0001 C CNN
+F 3 "" H 6350 4350 50  0001 C CNN
+	1    6350 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 4350 6300 4350
+$Comp
+L Device:R R39
+U 1 1 5F5CFB0C
+P 4200 4050
+F 0 "R39" V 3993 4050 50  0000 C CNN
+F 1 "3k" V 4084 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4130 4050 50  0001 C CNN
+F 3 "~" H 4200 4050 50  0001 C CNN
+	1    4200 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 5F5D01A7
+P 3700 4050
+F 0 "R36" V 3493 4050 50  0000 C CNN
+F 1 "1.5k" V 3584 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4050 50  0001 C CNN
+F 3 "~" H 3700 4050 50  0001 C CNN
+	1    3700 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R40
+U 1 1 5F5D2A26
+P 4200 4650
+F 0 "R40" V 4300 4650 50  0000 C CNN
+F 1 "3k" V 4400 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4130 4650 50  0001 C CNN
+F 3 "~" H 4200 4650 50  0001 C CNN
+	1    4200 4650
+	0    1    1    0   
+$EndComp
+Text GLabel 5000 4250 0    50   Output ~ 0
+VGND
+Wire Wire Line
+	3450 4150 3550 4150
+Wire Wire Line
+	3850 4050 3950 4050
+Wire Wire Line
+	3850 4150 3950 4150
+Wire Wire Line
+	3950 4150 3950 4050
+Connection ~ 3950 4050
+Wire Wire Line
+	3950 4050 4050 4050
+Wire Wire Line
+	4050 4650 3950 4650
+Text GLabel 5000 4450 0    50   Output ~ 0
+VGND
+$Comp
+L Device:R R37
+U 1 1 5F5D429D
+P 3700 4150
+F 0 "R37" V 3800 4150 50  0000 C CNN
+F 1 "1.5k" V 3900 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4150 50  0001 C CNN
+F 3 "~" H 3700 4150 50  0001 C CNN
+	1    3700 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 5F5D97D5
+P 3700 4550
+F 0 "R38" V 3800 4550 50  0000 C CNN
+F 1 "750" V 3900 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4550 50  0001 C CNN
+F 3 "~" H 3700 4550 50  0001 C CNN
+	1    3700 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 4550 3450 4550
+Wire Wire Line
+	3450 4550 3450 4150
+Wire Wire Line
+	3450 4150 3350 4150
+Connection ~ 3450 4150
+Wire Wire Line
+	3350 4050 3550 4050
+$Comp
+L power:VCC #PWR054
+U 1 1 5F5DB826
+P 5700 5350
+F 0 "#PWR054" H 5700 5200 50  0001 C CNN
+F 1 "VCC" H 5715 5523 50  0000 C CNN
+F 2 "" H 5700 5350 50  0001 C CNN
+F 3 "" H 5700 5350 50  0001 C CNN
+	1    5700 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5F5DC13D
+P 5700 5550
+F 0 "C12" H 5585 5596 50  0000 R CNN
+F 1 "100nF" H 5585 5505 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5738 5400 50  0001 C CNN
+F 3 "~" H 5700 5550 50  0001 C CNN
+	1    5700 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR055
+U 1 1 5F5DCFAE
+P 5700 5750
+F 0 "#PWR055" H 5700 5500 50  0001 C CNN
+F 1 "GND" H 5705 5577 50  0000 C CNN
+F 2 "" H 5700 5750 50  0001 C CNN
+F 3 "" H 5700 5750 50  0001 C CNN
+	1    5700 5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5750 5700 5700
+Text GLabel 6400 4250 2    50   Output ~ 0
+VGND
+Text GLabel 6400 4450 2    50   Output ~ 0
+VGND
+Wire Wire Line
+	3850 4550 3950 4550
+Wire Wire Line
+	3950 4650 3950 4550
+Wire Wire Line
+	5000 4050 5100 4050
+Text HLabel 3350 4050 0    50   Input ~ 0
+SIGNAL1
+$Comp
+L Device:R R41
+U 1 1 5F6AB6AA
+P 4450 4350
+F 0 "R41" H 4520 4396 50  0000 L CNN
+F 1 "3k" H 4520 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4380 4350 50  0001 C CNN
+F 3 "~" H 4450 4350 50  0001 C CNN
+	1    4450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4250 5100 4250
+Wire Wire Line
+	5000 4450 5100 4450
+Connection ~ 3950 4550
+Wire Wire Line
+	3950 4550 4450 4550
+Wire Wire Line
+	4450 4500 4450 4550
+Connection ~ 4450 4550
+Wire Wire Line
+	4350 4050 4450 4050
+Wire Wire Line
+	4450 4200 4450 4050
+Connection ~ 4450 4050
+Connection ~ 3950 4150
+Wire Wire Line
+	4450 4050 5000 4050
+Connection ~ 5000 4050
+Wire Wire Line
+	3950 4150 5100 4150
+Wire Wire Line
+	4450 4550 5100 4550
+Wire Wire Line
+	6400 4250 6300 4250
+Wire Wire Line
+	6300 4450 6400 4450
+$Comp
+L MCP6074-E_ST:MCP6074-E_ST IC9
+U 1 1 60487154
+P 5100 4050
+F 0 "IC9" H 5700 4315 50  0000 C CNN
+F 1 "MCP6074-E_ST" H 5700 4224 50  0000 C CNN
+F 2 "footprints:SOP65P640X120-14N" H 6150 4150 50  0001 L CNN
+F 3 "http://docs-emea.rs-online.com/webdocs/0db6/0900766b80db63d9.pdf" H 6150 4050 50  0001 L CNN
+F 4 "Quad 1.8V 1.2MHz Op Amp, E temp" H 6150 3950 50  0001 L CNN "Description"
+F 5 "1.75" H 6150 3850 50  0001 L CNN "Height"
+F 6 "Microchip" H 6150 3750 50  0001 L CNN "Manufacturer_Name"
+F 7 "MCP6074-E/ST" H 6150 3650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MCP6074-E/ST" H 6150 3550 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mcp6074-eST/microchip-technology" H 6150 3450 50  0001 L CNN "Arrow Price/Stock"
+F 10 "579-MCP6074-E/ST" H 6150 3350 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP6074-E%2FST" H 6150 3250 50  0001 L CNN "Mouser Price/Stock"
+	1    5100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR056
+U 1 1 6048A73C
+P 5050 4350
+F 0 "#PWR056" H 5050 4200 50  0001 C CNN
+F 1 "VCC" V 5068 4477 50  0000 L CNN
+F 2 "" H 5050 4350 50  0001 C CNN
+F 3 "" H 5050 4350 50  0001 C CNN
+	1    5050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 4350 5100 4350
+Wire Wire Line
+	5700 5350 5700 5400
+Wire Wire Line
+	5000 3650 5000 4050
+Wire Wire Line
+	5000 5050 5000 4650
+Wire Wire Line
+	4350 4650 5000 4650
+Wire Wire Line
+	5000 4650 5100 4650
+Connection ~ 5000 4650
+$Comp
+L Device:R R46
+U 1 1 5F5EF161
+P 6650 3850
+F 0 "R46" V 6450 3850 50  0000 C CNN
+F 1 "2k" V 6550 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6580 3850 50  0001 C CNN
+F 3 "~" H 6650 3850 50  0001 C CNN
+	1    6650 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R45
+U 1 1 5F5F30F7
+P 7550 4050
+F 0 "R45" V 7343 4050 50  0000 C CNN
+F 1 "3k" V 7434 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7480 4050 50  0001 C CNN
+F 3 "~" H 7550 4050 50  0001 C CNN
+	1    7550 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 4150 7900 4050
+Wire Wire Line
+	7700 4050 7900 4050
+Wire Wire Line
+	8400 4550 7900 4550
+$Comp
+L Device:R R44
+U 1 1 5F5F03C1
+P 7300 4350
+F 0 "R44" H 7370 4396 50  0000 L CNN
+F 1 "3k" H 7370 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7230 4350 50  0001 C CNN
+F 3 "~" H 7300 4350 50  0001 C CNN
+	1    7300 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4150 8500 4150
+Wire Wire Line
+	7300 4550 7300 4500
+Wire Wire Line
+	7300 4200 7300 4050
+Wire Wire Line
+	7300 4050 7400 4050
+Connection ~ 7900 4550
+$Comp
+L Diode:BAT54S D1
+U 1 1 602CDF42
+P 7900 3650
+F 0 "D1" V 7946 3738 50  0000 L CNN
+F 1 "BAT54S" V 7855 3738 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7975 3775 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7780 3650 50  0001 C CNN
+	1    7900 3650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7900 3350 7900 3250
+Wire Wire Line
+	7900 3250 8400 3250
+Wire Wire Line
+	7900 4050 7900 3950
+Connection ~ 7900 4050
+Wire Wire Line
+	8400 3250 8400 4550
+$Comp
+L Device:R R42
+U 1 1 602EE8CA
+P 7450 3650
+F 0 "R42" V 7243 3650 50  0000 C CNN
+F 1 "3k" V 7334 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7380 3650 50  0001 C CNN
+F 3 "~" H 7450 3650 50  0001 C CNN
+	1    7450 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 3650 7700 3650
+$Comp
+L Diode:BAT54S D2
+U 1 1 602E127D
+P 7900 5050
+F 0 "D2" V 7854 5138 50  0000 L CNN
+F 1 "BAT54S" V 7945 5138 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7975 5175 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7780 5050 50  0001 C CNN
+	1    7900 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 5350 7900 5450
+Wire Wire Line
+	7900 5450 8500 5450
+Wire Wire Line
+	7600 5050 7700 5050
+Wire Wire Line
+	8500 4150 8500 5450
+$Comp
+L Device:R R43
+U 1 1 602F28F5
+P 7450 5050
+F 0 "R43" V 7550 5050 50  0000 C CNN
+F 1 "3k" V 7650 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7380 5050 50  0001 C CNN
+F 3 "~" H 7450 5050 50  0001 C CNN
+	1    7450 5050
+	0    -1   1    0   
+$EndComp
+Connection ~ 7300 4050
+Wire Wire Line
+	5000 3650 7300 3650
+Wire Wire Line
+	5000 5050 7300 5050
+Wire Wire Line
+	7300 4050 6850 4050
+Wire Wire Line
+	6850 4050 6850 4650
+Wire Wire Line
+	6850 4650 6300 4650
+Wire Wire Line
+	7900 4150 6950 4150
+Wire Wire Line
+	6950 4150 6950 4550
+Wire Wire Line
+	6950 4550 6300 4550
+Connection ~ 7900 4150
+Wire Wire Line
+	7100 3950 7100 4550
+Wire Wire Line
+	7100 4550 7300 4550
+Wire Wire Line
+	7300 4550 7900 4550
+Connection ~ 7300 4550
+Wire Wire Line
+	7900 4550 7900 4750
+Wire Wire Line
+	6400 3850 6500 3850
+Wire Wire Line
+	6800 3850 6900 3850
+Wire Wire Line
+	6900 3850 6900 3950
+Text HLabel 6300 3850 0    50   Output ~ 0
+OUT
+Wire Wire Line
+	6300 3850 6400 3850
+Wire Wire Line
+	6500 4150 6500 3950
+Wire Wire Line
+	6300 4150 6500 4150
+Connection ~ 6900 3950
+Wire Wire Line
+	6900 3950 7100 3950
+Wire Wire Line
+	6500 3950 6900 3950
+Wire Wire Line
+	6300 4050 6400 4050
+Wire Wire Line
+	6400 4050 6400 3850
+Connection ~ 6400 3850
+$EndSCHEMATC

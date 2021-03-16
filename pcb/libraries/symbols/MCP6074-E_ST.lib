@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MCP6074-E_ST
+#/159364/291737/2.47/14/3/Integrated Circuit
+DEF MCP6074-E_ST IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MCP6074-E_ST" 1050 200 50 H V L CNN
+F2 "SOP65P640X120-14N" 1050 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/0db6/0900766b80db63d9.pdf" 1050 0 50 H I L CNN
+F4 "Quad 1.8V 1.2MHz Op Amp, E temp" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "Microchip" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MCP6074-E/ST" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MCP6074-E/ST" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/mcp6074-eST/microchip-technology" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "579-MCP6074-E/ST" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP6074-E%2FST" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X VOUTA 1 0 0 200 R 50 50 0 0 O
+X VINA- 2 0 -100 200 R 50 50 0 0 I
+X VINA+ 3 0 -200 200 R 50 50 0 0 I
+X VDD 4 0 -300 200 R 50 50 0 0 W
+X VINB+ 5 0 -400 200 R 50 50 0 0 I
+X VINB- 6 0 -500 200 R 50 50 0 0 I
+X VOUTB 7 0 -600 200 R 50 50 0 0 O
+X VOUTD 14 1200 0 200 L 50 50 0 0 O
+X VIND- 13 1200 -100 200 L 50 50 0 0 I
+X VIND+ 12 1200 -200 200 L 50 50 0 0 I
+X VSS 11 1200 -300 200 L 50 50 0 0 W
+X VINC+ 10 1200 -400 200 L 50 50 0 0 I
+X VINC- 9 1200 -500 200 L 50 50 0 0 I
+X VOUTC 8 1200 -600 200 L 50 50 0 0 O
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

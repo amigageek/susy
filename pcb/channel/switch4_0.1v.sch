@@ -1,0 +1,186 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4000 3750 0    50   Input ~ 0
+SIGNAL1
+Text HLabel 4000 3850 0    50   Input ~ 0
+SIGNAL2
+Text HLabel 8700 4200 2    50   Output ~ 0
+OUT
+Text HLabel 8500 4300 0    50   Input ~ 0
+OP-
+Text HLabel 7950 4050 2    50   Input ~ 0
+OP+
+Text HLabel 8700 4300 2    50   Input ~ 0
+OPO
+$Comp
+L Device:R R121
+U 1 1 6055BEFA
+P 4250 3750
+F 0 "R121" V 4457 3750 50  0000 C CNN
+F 1 "470" V 4366 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 3750 50  0001 C CNN
+F 3 "~" H 4250 3750 50  0001 C CNN
+	1    4250 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 3750 4100 3750
+Text HLabel 4800 3950 0    50   Input ~ 0
+SELECT1
+$Comp
+L Device:R R122
+U 1 1 6055BEFB
+P 4250 3850
+F 0 "R122" V 4150 3850 50  0000 C CNN
+F 1 "470" V 4050 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 3850 50  0001 C CNN
+F 3 "~" H 4250 3850 50  0001 C CNN
+	1    4250 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 3850 4100 3850
+Wire Wire Line
+	4400 3750 4900 3750
+Wire Wire Line
+	4400 3850 4900 3850
+Wire Wire Line
+	4800 3950 4900 3950
+Wire Wire Line
+	7750 4150 7750 4050
+$Comp
+L Device:C C20
+U 1 1 60499B96
+P 7750 4300
+F 0 "C20" H 7865 4346 50  0000 L CNN
+F 1 "10nF" H 7865 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7788 4150 50  0001 C CNN
+F 3 "~" H 7750 4300 50  0001 C CNN
+	1    7750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR091
+U 1 1 6049A300
+P 7750 4500
+F 0 "#PWR091" H 7750 4250 50  0001 C CNN
+F 1 "GND" H 7755 4327 50  0000 C CNN
+F 2 "" H 7750 4500 50  0001 C CNN
+F 3 "" H 7750 4500 50  0001 C CNN
+	1    7750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4500 7750 4450
+$Sheet
+S 4900 3650 1000 400 
+U 604E3A4A
+F0 "Switch4 (0.1V) 1-2" 50
+F1 "switch2_unbuf_0.1v.sch" 50
+F2 "SIGNAL1" I L 4900 3750 50 
+F3 "SIGNAL2" I L 4900 3850 50 
+F4 "OUT" O R 5900 3750 50 
+F5 "SELECT" I L 4900 3950 50 
+$EndSheet
+Wire Wire Line
+	7550 4050 7750 4050
+Connection ~ 7750 4050
+Wire Wire Line
+	7750 4050 7950 4050
+Wire Wire Line
+	8500 4300 8600 4300
+Wire Wire Line
+	8700 4200 8600 4200
+Wire Wire Line
+	8600 4200 8600 4300
+Connection ~ 8600 4300
+Wire Wire Line
+	8600 4300 8700 4300
+Text HLabel 4000 4450 0    50   Input ~ 0
+SIGNAL3
+Text HLabel 4000 4550 0    50   Input ~ 0
+SIGNAL4
+$Comp
+L Device:R R123
+U 1 1 60502840
+P 4250 4450
+F 0 "R123" V 4457 4450 50  0000 C CNN
+F 1 "470" V 4366 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 4450 50  0001 C CNN
+F 3 "~" H 4250 4450 50  0001 C CNN
+	1    4250 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 4450 4100 4450
+Text HLabel 4800 4650 0    50   Input ~ 0
+SELECT1
+$Comp
+L Device:R R124
+U 1 1 60502848
+P 4250 4550
+F 0 "R124" V 4150 4550 50  0000 C CNN
+F 1 "470" V 4050 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 4550 50  0001 C CNN
+F 3 "~" H 4250 4550 50  0001 C CNN
+	1    4250 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 4550 4100 4550
+Wire Wire Line
+	4400 4450 4900 4450
+Wire Wire Line
+	4400 4550 4900 4550
+Wire Wire Line
+	4800 4650 4900 4650
+$Sheet
+S 4900 4350 1000 400 
+U 60502852
+F0 "Switch4 (0.1V) 3-4" 50
+F1 "switch2_unbuf_0.1v.sch" 50
+F2 "SIGNAL1" I L 4900 4450 50 
+F3 "SIGNAL2" I L 4900 4550 50 
+F4 "OUT" O R 5900 4450 50 
+F5 "SELECT" I L 4900 4650 50 
+$EndSheet
+$Sheet
+S 6550 3950 1000 400 
+U 6050367E
+F0 "Switch4 (0.1V) 12-34" 50
+F1 "switch2_unbuf_0.1v.sch" 50
+F2 "SIGNAL1" I L 6550 4050 50 
+F3 "SIGNAL2" I L 6550 4150 50 
+F4 "OUT" O R 7550 4050 50 
+F5 "SELECT" I L 6550 4250 50 
+$EndSheet
+Text HLabel 6450 4250 0    50   Input ~ 0
+SELECT2
+Wire Wire Line
+	6450 4250 6550 4250
+Wire Wire Line
+	5900 4450 6000 4450
+Wire Wire Line
+	6000 4150 6550 4150
+Wire Wire Line
+	5900 3750 6000 3750
+Wire Wire Line
+	6000 3750 6000 4050
+Wire Wire Line
+	6000 4050 6550 4050
+Wire Wire Line
+	6000 4150 6000 4450
+$EndSCHEMATC
