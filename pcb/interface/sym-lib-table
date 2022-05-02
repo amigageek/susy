@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name D25S33E4PA00LF)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/D25S33E4PA00LF.lib)(options "")(descr ""))
+  (lib (name SML-D12U1WT86)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/SML-D12U1WT86.lib)(options "")(descr ""))
+  (lib (name NX8045GB-8.000M-STD-CSJ-1)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/NX8045GB-8.000M-STD-CSJ-1.lib)(options "")(descr ""))
+  (lib (name UJ2-AH-4-TH)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/UJ2-AH-4-TH.lib)(options "")(descr ""))
+  (lib (name SJ1-3523N)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/SJ1-3523N.lib)(options "")(descr ""))
+  (lib (name NX3008NBKW_115)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/NX3008NBKW_115.lib)(options "")(descr ""))
+  (lib (name MCP6072-E_SN)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/MCP6072-E_SN.lib)(options "")(descr ""))
+  (lib (name MCP6074-E_ST)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/MCP6074-E_ST.lib)(options "")(descr ""))
+  (lib (name OS102011MA1QN1C)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/OS102011MA1QN1C.lib)(options "")(descr ""))
+)
